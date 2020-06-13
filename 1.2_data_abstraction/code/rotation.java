@@ -14,6 +14,10 @@ public class rotation {
         return false;
     }
 
+    public static boolean isRotation(String a, String b) {
+        for ()
+    }
+
     public static void main(String[] args) {
 
         StdOut.println("Input first string: ");
