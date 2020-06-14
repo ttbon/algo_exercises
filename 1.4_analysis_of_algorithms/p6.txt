@@ -1,0 +1,3 @@
+a) order of growth: 2N-1
+b) order of growth: N - 1
+c) order of growth: N*log(N)
