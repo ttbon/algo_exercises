@@ -1,0 +1,1 @@
+Insertion InsertionSortNoExchange 1000 100

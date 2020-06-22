@@ -1,0 +1,3 @@
+use selection sort.
+you are guaranteed a linear number of exchanges in the worst case,
+which is the best possible that can be achieved by any sorting algorithm

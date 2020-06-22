@@ -1,0 +1,3 @@
+selection sort is better.
+insertion sort will have to shift numbers that are greater every single time
+due to having to insert each number it encounters at the front.

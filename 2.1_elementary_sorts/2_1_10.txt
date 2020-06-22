@@ -1,0 +1,4 @@
+selection sort cannot take advantage of a partially sorted algorithm
+
+this is where the efficiency comes from in using shellsort.  Otherwise,
+you might as well just have only done the h=1 pass.

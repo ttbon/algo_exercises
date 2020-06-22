@@ -1,0 +1,2 @@
+insertion sort, only requires N-1 compares
+selection sort would have to make (N-1) + (N-2) + ... + 2 + 1 compares

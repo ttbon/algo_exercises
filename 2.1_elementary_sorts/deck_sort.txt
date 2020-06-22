@@ -1,0 +1,11 @@
+can use shell sort
+
+translate ordering logic into
+
+suit*13 + rank
+
+where
+spades=0
+hearts = 1
+clubs = 2
+diamonds = 3
