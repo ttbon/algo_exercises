@@ -1,0 +1,3 @@
+For more many more put operations than get operations
+sequential search on an ordered list is more effective than binary search
+on an ordered list.

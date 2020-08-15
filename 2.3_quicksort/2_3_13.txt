@@ -1,0 +1,5 @@
+recursive depth of quicksort
+
+worst case: each partition just peels off one --> depth = N
+best case: halve it each time logN
+average: logN

@@ -1,0 +1,1 @@
+Any entry order leads to a monotonically increasing tree height.

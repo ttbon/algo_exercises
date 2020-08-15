@@ -1,0 +1,36 @@
+proposition: no compare-based algorithm can build a BST using fewer than
+lg(N!) compares.
+
+rephrasing: there does not exist a set C_n = {c_1, c_2, ... , c_n} such that
+sum(C_n) < lg(N!) for all N > 0, and all c_i are integers.  Where c_i is the number of compares used
+to insert the i-th element in the BST.
+
+Let us consider that inserting the first element takes no compares, so c_1 = 0.
+
+Next, let us take as fact that the second element must at least be compared to the first.
+Therefore, c_2 > 1.
+
+Now, as proof by contradiction.  Let us assume that there does indeed exist such a
+set for all N > 0.
+
+then,
+
+sum(C_n) < lg(n!)    for all n > 0
+
+also,
+
+sum(C_(n-1)) < lg((n-1)!) for all n > 1
+
+therefore,
+
+c_n < lg(n!) - sum(C_(n-1)) < lg(n!) - lg((n-1)!)   for all n>1
+
+c_n < log(n! / (n-1)!)
+
+c_n < log(n)      for all n>1
+
+let n = 2
+
+c_2 < log_2(2) = 1
+
+however, we stated earlier that c_2 > 1.  Contradiction!

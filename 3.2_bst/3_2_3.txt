@@ -1,0 +1,25 @@
+keys: A X C S E R H
+
+5 orderings that result in the best case tree.
+
+H C S A E R X
+H S C A E R X
+H C S A E X R
+H C S A R E X
+H C S A R X E
+
+basically, optimal tree looks like:
+
+          H
+       C     S
+      A E   R X
+
+You just have to make sure that you insert each level in order, so:
+
+(1) H
+(2) C S in any order
+(3) A E R X in any order
+
+an algorithmic way to find best tree is to take the median of the sequence,
+and set that as the root.  Then the left node is the sequence on the left of the
+ordered sequence, and the vice versa for the right node.

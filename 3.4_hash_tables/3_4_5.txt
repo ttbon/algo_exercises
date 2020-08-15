@@ -1,0 +1,7 @@
+Yes, it is legal.  Every legal input can be hashed, it is easy to compute,
+and it evenly distributes the values, but over the range of just the one
+number, 17.
+
+The fact that all inputs map to the same number make defeat the purpose of
+having a hash function though.  When used for a hash table this will lead
+to sequential search, which yields very poor performance.

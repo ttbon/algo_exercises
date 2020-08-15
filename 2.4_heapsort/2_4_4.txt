@@ -1,0 +1,4 @@
+Yes.  A decreasing sorted order array is a max-oriented heap.  Each parent node
+has a lower index than its children nodes, and this combined with the decreasing
+sort yields our invariant for the max-oriented heap - that each parent node
+is greater than or equal to both of its children.

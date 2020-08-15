@@ -1,0 +1,1 @@
+1.39N logN compares despite being in order due to initial shuffle

@@ -1,0 +1,9 @@
+Ordered array is the worst, because insert operations are expensive.
+
+You could use a d-ary heap sort with a high d-value, which decreases the cost
+of swim operations from inserts.
+
+Unordered array also works because insert is constant time, but find the max is
+linear time.
+
+Heap-sort versus unordered array will depend on the relative frequency.

@@ -1,0 +1,11 @@
+b. 4, 10, 8, 7, 53
+
+is not possible when searching for 5.  For this to be a credible sequence,
+any new value must be greater than the max of values less than 5 presented
+thus far, and also less than the min of values greater than 5 presented thus far.
+
+So a sneakier, impossible sequence would be
+
+4, 10, 2, 5
+
+Because 2 is less than 4, it should be on the sub-tree left of 4

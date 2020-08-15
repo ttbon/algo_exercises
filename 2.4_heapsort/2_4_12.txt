@@ -1,0 +1,2 @@
+Ordered array.  find the max is constant time.  Though inserting, can be
+expensive.

@@ -1,0 +1,5 @@
+Keeping the maximum works for updating and returning the maximum in constant
+time, but only if you are trying to keep only the maximum of the entire stream
+and will never pop the value.  In essence this is a TopM priority queue with
+M=1.  The issue is that it then would become very expensive if you pop your
+current max and need to find the next largest value.

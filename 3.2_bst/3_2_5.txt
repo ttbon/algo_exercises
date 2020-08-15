@@ -1,0 +1,5 @@
+When building your BST, if you know which keys will be accessed more often,
+you should insert those keys earlier.  So insert in decreasing order of frequency.
+
+Inserting a key earlier in the sequence will always place the key at a shallower,
+or at least not deeper level than if the key is inserted later in the sequence.

@@ -1,0 +1,6 @@
+(i) and (ii) are not black balanced, and therefore not red-black BSTs.
+
+(iii) and (iv) are bc they satisfy the following properites:
+
+- no node has two red links
+- perfect black balance
